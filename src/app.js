@@ -14,6 +14,12 @@ const { getAge, getUUID } = require('./plugins');
 //   .finally( () => console.log('Finalmente') );
 
 
+const { buildLogger } = require('./plugins');
+
+const logger = buildLogger('app.js');
+logger.log('Hello World');
+logger.error('Service not found 500');
+
 
 // token de acceso
 // Publicas
