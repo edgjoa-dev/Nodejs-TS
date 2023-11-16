@@ -3,5 +3,5 @@ node_modules/
 .env
 
 
-conbined.log
+combined.log
 error.log
