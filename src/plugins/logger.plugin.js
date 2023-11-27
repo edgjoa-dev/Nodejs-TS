@@ -7,7 +7,7 @@ const logger = winston.createLogger({
     format: combine(
         colorize(),
         timestamp(),
-        json(),
+        json()
     ),
     // defaultMeta: { service: 'user-service' },
     transports: [
