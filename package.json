@@ -10,7 +10,7 @@
     "start:dev": "echo 'Hola mundo desde dev' ",
     "start:stag": "echo 'Hola mundo desde dev' "
   },
-  "author": "Fernando Herrera",
+  "author": "Edgar Joaquin Flores",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^3.0.1"

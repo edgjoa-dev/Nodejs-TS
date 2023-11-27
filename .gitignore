@@ -1,7 +1,8 @@
+#módulos de npm o yarn
 node_modules/
 
+#Variables de entorno
 .env
 
-
-combined.log
-error.log
+#Logs de libreria de winston
+*.log
