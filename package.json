@@ -1,26 +1,12 @@
 {
-  "name": "02-bases",
+  "name": "node-ts-module2",
   "version": "1.0.0",
-  "description": "Esta es mi primera aplicación real de Node",
+  "description": "curso de nodejs con typescript - modulo2",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
-    "start:dev": "echo 'Hola mundo desde dev' ",
-    "start:stag": "echo 'Hola mundo desde dev' "
-  },
-  "author": "Fernando Herrera",
+  "author": "edgar joaquin flores",
   "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
-  "dependencies": {
-    "axios": "^1.4.0",
-    "get-age": "^1.0.1",
-    "i": "^0.3.7",
-    "npm": "^10.2.3",
-    "uuid": "^9.0.0",
-    "winston": "^3.11.0"
+  "scripts": {
+    "dev":"node --watch ./src/app.js",
+    "start":"node ./src/app.js"
   }
 }
