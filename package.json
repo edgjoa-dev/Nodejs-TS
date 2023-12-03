@@ -5,6 +5,7 @@
   "main": "app.js",
   "author": "edgar joaquin flores",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "build": "rimraf ./dst && tsc",
     "start": "rimraf yarn build && node dst/app.js",
