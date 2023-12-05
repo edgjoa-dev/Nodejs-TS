@@ -1,4 +1,6 @@
-const { getAge, getUUID } = require('./plugins');
+import { buildLogger } from "./plugins/logger.plugin";
+// const { getAge, getUUID } = require('./plugins');
+
 
 // const { emailTemplate } = require('./js-foundation/01-template');
 // require('./js-foundation/02-destructuring');
@@ -13,8 +15,6 @@ const { getAge, getUUID } = require('./plugins');
 //   .catch( ( err ) => console.log( err ) )
 //   .finally( () => console.log('Finalmente') );
 
-
-const { buildLogger } = require('./plugins');
 
 const logger = buildLogger('app.js');
 logger.log('Hello World');
@@ -33,9 +33,4 @@ logger.error('Service not found 500');
 // const john = makePerson( obj );
 
 // console.log({ john });
-
-
-
-
-
 
