@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "app de consola - clean architecture",
   "main": "index.js",
-  "author": "edgar joaquin flores",
+  "repository": "git@github.com:edgjoa-dev/Nodejs-TS.git",
+  "author": "Edgar Joaquin Flores <floresedgarjoaquin@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
     "build": "rimraf ./dist && tsc",
     "start": "npm run build && node dist/app.js"
