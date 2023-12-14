@@ -7,7 +7,7 @@
   "author": "Edgar Joaquin Flores <floresedgarjoaquin@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node src/app.ts -b 10",
+    "dev": "ts-node src/app.ts",
     "dev:nodemon": "nodemon",
     "build": "rimraf ./dist && tsc",
     "start": "npm run build && node dist/app.js"
